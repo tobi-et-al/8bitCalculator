@@ -1,5 +1,5 @@
 
-# 8bit Calculator Project
+# my idea of an 8bit Calculator 
 ------------
 
 On the front-end,
