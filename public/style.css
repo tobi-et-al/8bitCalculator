@@ -1,0 +1,149 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  padding:10px 15px;
+  cursor: pointer;
+  width: 50px;
+}
+button.double { 
+  padding:10px 30px; 
+}
+button.double.long { 
+  padding: 35px 15px 40px 15px;
+}
+button.double.lat { 
+    padding-top: 10px;
+    padding-right: 65px;
+    padding-bottom: 10px;
+    padding-left: 65px;
+}
+.yellow{ 
+  background-color: yellow
+}
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+
+.screen{
+  width:100%;
+  line-height:40px ; 
+  font-size:2em;
+  height:40px;
+  text-align:right;
+
+}
+.ticker{
+
+  text-align:right;
+}
+.operator{
+  font-size:1.5em;
+  font-weight:bold;
+  float:left;
+}
+.operator div {
+  padding:10px; 
+  min-width: 77.5px;
+  float:left;
+}
+main{
+    width: 340px;
+    margin: 0 auto;
+}
+.zero{
+  margin-top: -55px;
+}
+.point{
+  margin-top: -55px;
+}
+@media only screen and (max-width: 400px) {
+    button {
+      font-size: 16px;
+      border-radius: 3px;
+      background-color: lightgrey;
+      border: 1px solid grey;
+      box-shadow: 2px 2px teal;
+      padding:7px 7px;
+      cursor: pointer;
+      min-width: 40px;
+    }
+  .operator div {
+    padding:10px; 
+    min-width: 77.5px;
+    float:left;
+  }
+  
+}
